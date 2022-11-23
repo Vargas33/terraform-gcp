@@ -14,8 +14,8 @@ terraform {
 
 provider "google" {
   project = "nbkub-363620"
-  region  = "us-central1"
-  zone    = "us-central1-c"
+  region  = "us-west1"
+  zone    = "us-west1-c"
 }
 
 resource "google_compute_network" "vpc_network" {
